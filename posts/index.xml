@@ -1,10 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog on Writeplace</title>
-    <link>https://kawanashiC.github.io/posts/</link>
-    <description>Recent content in Blog on Writeplace</description>
+    <title>Blogs on Writeplace</title>
+    <link>https://FuruzukiCH.github.io/posts/</link>
+    <description>Recent content in Blogs on Writeplace</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://kawanashiC.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Sat, 31 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://FuruzukiCH.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Weekly #1 - Reflection and Outlook</title>
+      <link>https://FuruzukiCH.github.io/posts/weekly-20221231/</link>
+      <pubDate>Sat, 31 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://FuruzukiCH.github.io/posts/weekly-20221231/</guid>
+      <description>2022 is a crazy year. A turbulent first half comes along with a dramatic second half. Life is just crazy and unpredictable, but things have to go on.
+ World in 2022 #  Elon Musk buys Twitter #  Elon Musk acquired Twitter with $440B, making Twitter his private property. Although he claimed this deal is for promoting Free speech, his reform does not seems to align with his promise.</description>
+    </item>
+    
   </channel>
 </rss>
