@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Overview #  IEEE754 is a technical standard for floating number representation.
+Internal Representation #   Fraction -&gt; Mantisa
+ 85.125 85 = 1010101 0.125 = 001 85.125 = 1010101.001 =1.010101001 x 2^6 sign = 0 Biased exponent = 127 &#43; 6 = 133 = 10000101 Normalized Mantisa = 1.010101001 - 1 = 010101001 Single Precision Representation = 0 10000101 01010100100000000000000 Special Cases #     Exponent Mantisa Value     0 0 0   255 0 Infinity   0 not 0 denormalized   255 not 0 NaN    Related Concepts #  Normal Number">
+<meta name="theme-color" content="#FFFFFF">
+<meta name="color-scheme" content="light dark"><meta property="og:title" content="Tech #1 - IEEE 754 Floating numbers" />
+<meta property="og:description" content="Overview #  IEEE754 is a technical standard for floating number representation.
+Internal Representation #   Fraction -&gt; Mantisa
+ 85.125 85 = 1010101 0.125 = 001 85.125 = 1010101.001 =1.010101001 x 2^6 sign = 0 Biased exponent = 127 &#43; 6 = 133 = 10000101 Normalized Mantisa = 1.010101001 - 1 = 010101001 Single Precision Representation = 0 10000101 01010100100000000000000 Special Cases #     Exponent Mantisa Value     0 0 0   255 0 Infinity   0 not 0 denormalized   255 not 0 NaN    Related Concepts #  Normal Number" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://FuruzukiCH.github.io/posts/tech-ieee754/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-01-03T00:00:00+00:00" />
+<meta property="article:modified_time" content="2023-01-03T00:00:00+00:00" />
+
+<title>Tech #1 - IEEE 754 Floating numbers | Writeplace</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="/book.min.a82d7e77ceb134d151c4d7e381eeb30623fbd5a524d58c584d8716ecec0205bd.css" integrity="sha256-qC1&#43;d86xNNFRxNfjge6zBiP71aUk1YxYTYcW7OwCBb0=" crossorigin="anonymous">
+  <script defer src="/flexsearch.min.js"></script>
+  <script defer src="/en.search.min.2c5c14a91c18b8d30dbd3f1386c197c339e0921163305c30654915571d7acc00.js" integrity="sha256-LFwUqRwYuNMNvT8ThsGXwzngkhFjMFwwZUkVVx16zAA=" crossorigin="anonymous"></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/"><span>Writeplace</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+<ul>
+  
+  <li>
+    <a href="/posts/"  >
+        Blogs
+      </a>
+  </li>
+  
+</ul>
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var a=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(b){localStorage.setItem("menu.scrollTop",a.scrollTop)}),a.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Tech #1 - IEEE 754 Floating numbers</strong>
+
+  <label for="toc-control">
+    
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#overview">Overview</a></li>
+    <li><a href="#internal-representation">Internal Representation</a></li>
+    <li><a href="#special-cases">Special Cases</a>
+      <ul>
+        <li><a href="#related-concepts">Related Concepts</a></li>
+      </ul>
+    </li>
+    <li><a href="#further-research">Further Research</a></li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+<article class="markdown">
+  <h1>
+    <a href="/posts/tech-ieee754/">Tech #1 - IEEE 754 Floating numbers</a>
+  </h1>
+  
+  <h5>January 3, 2023</h5>
+
+
+
+  
+  <div>
+    
+      <a href="/categories/tech/">Tech</a>
+  </div>
+  
+
+  
+
+
+
+<h2 id="overview">
+  Overview
+  <a class="anchor" href="#overview">#</a>
+</h2>
+<p>IEEE754 is a technical standard for floating number representation.</p>
+<h2 id="internal-representation">
+  Internal Representation
+  <a class="anchor" href="#internal-representation">#</a>
+</h2>
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Float_example.svg/1180px-Float_example.svg.png" alt="Single Precision" /></p>
+<blockquote>
+<p>Fraction -&gt; Mantisa</p>
+</blockquote>
+<pre tabindex="0"><code>85.125
+85 = 1010101
+0.125 = 001
+85.125 = 1010101.001
+       =1.010101001 x 2^6 
+sign = 0
+Biased exponent = 127 + 6 = 133 = 10000101
+Normalized Mantisa = 1.010101001 - 1 = 010101001
+Single Precision Representation = 0 10000101 01010100100000000000000
+</code></pre><h2 id="special-cases">
+  Special Cases
+  <a class="anchor" href="#special-cases">#</a>
+</h2>
+<table>
+<thead>
+<tr>
+<th>Exponent</th>
+<th>Mantisa</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>255</td>
+<td>0</td>
+<td>Infinity</td>
+</tr>
+<tr>
+<td>0</td>
+<td>not 0</td>
+<td>denormalized</td>
+</tr>
+<tr>
+<td>255</td>
+<td>not 0</td>
+<td>NaN</td>
+</tr>
+</tbody>
+</table>
+<h3 id="related-concepts">
+  Related Concepts
+  <a class="anchor" href="#related-concepts">#</a>
+</h3>
+<p><a href="https://en.wikipedia.org/wiki/Normal_number_%28computing%29">Normal Number</a></p>
+<p><a href="https://en.wikipedia.org/wiki/Subnormal_number">Subnormal Number</a></p>
+<h2 id="further-research">
+  Further Research
+  <a class="anchor" href="#further-research">#</a>
+</h2>
+<p><a href="https://ushiostarfish.hatenablog.com/entry/2019/08/12/210023">https://ushiostarfish.hatenablog.com/entry/2019/08/12/210023</a></p>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+
+
+  <script>(function(){function a(c){const a=window.getSelection(),b=document.createRange();b.selectNodeContents(c),a.removeAllRanges(),a.addRange(b)}document.querySelectorAll("pre code").forEach(b=>{b.addEventListener("click",function(c){if(window.getSelection().toString())return;a(b.parentElement),navigator.clipboard&&navigator.clipboard.writeText(b.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#overview">Overview</a></li>
+    <li><a href="#internal-representation">Internal Representation</a></li>
+    <li><a href="#special-cases">Special Cases</a>
+      <ul>
+        <li><a href="#related-concepts">Related Concepts</a></li>
+      </ul>
+    </li>
+    <li><a href="#further-research">Further Research</a></li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
