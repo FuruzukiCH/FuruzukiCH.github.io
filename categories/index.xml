@@ -6,7 +6,16 @@
     <description>Recent content in Categories on Writeplace</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 03 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://FuruzukiCH.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 06 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://FuruzukiCH.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>News</title>
+      <link>https://FuruzukiCH.github.io/categories/news/</link>
+      <pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://FuruzukiCH.github.io/categories/news/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Tech</title>
       <link>https://FuruzukiCH.github.io/categories/tech/</link>
@@ -17,11 +26,11 @@
     </item>
     
     <item>
-      <title>Reading</title>
-      <link>https://FuruzukiCH.github.io/categories/reading/</link>
+      <title>Book</title>
+      <link>https://FuruzukiCH.github.io/categories/book/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://FuruzukiCH.github.io/categories/reading/</guid>
+      <guid>https://FuruzukiCH.github.io/categories/book/</guid>
       <description></description>
     </item>
     

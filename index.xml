@@ -6,7 +6,28 @@
     <description>Recent content in Writepalce on Writeplace</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 03 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://FuruzukiCH.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 06 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://FuruzukiCH.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>News #2 US and its Allies Offer Armored Vehicles to Give Ukraine an Edge</title>
+      <link>https://FuruzukiCH.github.io/posts/news-20230106/</link>
+      <pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://FuruzukiCH.github.io/posts/news-20230106/</guid>
+      <description>US and its Allies Offer Armored Vehichles to Give Ukraine an Edge #  The US., France and Germany have said they will send dozens of armored infantry vehicles to Ukraine, a significant deployment of Western support at a critical juncture in its war against invading Russian forces.
+President Biden said Thursday that the U.S would provide Bradley Fighting Vehicles, a tracked vehicle that resembles a tank but with a smaller gun, fulfilling months of requests from Kyiv.</description>
+    </item>
+    
+    <item>
+      <title>News #1 China reversed its covid policy</title>
+      <link>https://FuruzukiCH.github.io/posts/news-20230105/</link>
+      <pubDate>Thu, 05 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://FuruzukiCH.github.io/posts/news-20230105/</guid>
+      <description>China reversed its zero covid policy #  By the end of an otherwise triumphant Communist Party Congress for Xi Jinping in October, it became harder for the government to prolong its zero covid policy.
+The containment meansure has come at a high cost, cutting sharply into the nation&amp;rsquo;s exports and retail sales, draining local finances and driving parts of the population to a near-breaking point.
+As late as mid-November, Xi was still wavering on whether and how to unwind a policy he had so closely associated himeself.</description>
+    </item>
+    
     <item>
       <title>Tech #1 - IEEE 754 Floating numbers</title>
       <link>https://FuruzukiCH.github.io/posts/tech-ieee754/</link>
@@ -19,22 +40,54 @@ Internal Representation #   Fraction -&amp;gt; Mantisa
     </item>
     
     <item>
-      <title>Reading #1 - One man&#39;s view of the world</title>
-      <link>https://FuruzukiCH.github.io/posts/reading-one_mans_view_of_the_world/</link>
+      <title>Book #1 - One man&#39;s view of the world</title>
+      <link>https://FuruzukiCH.github.io/posts/book-one_mans_view_of_the_world/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://FuruzukiCH.github.io/posts/reading-one_mans_view_of_the_world/</guid>
+      <guid>https://FuruzukiCH.github.io/posts/book-one_mans_view_of_the_world/</guid>
       <description>Abstract #  The former PM of Singapore, Lee Kuan Yew, is a controversial icon in the world politics. No one can refute his contribution has brought Singapore to one of the richest countries in the world. His view on the world proves to be clear and to the point. Also, as his identity of English-speaking Chinese, his view tends to be more neutral than both the western and Chinese media.</description>
     </item>
     
     <item>
       <title>Weekly #1 - Reflection and Outlook</title>
-      <link>https://FuruzukiCH.github.io/posts/weekly-20221231/</link>
+      <link>https://FuruzukiCH.github.io/posts/weekly-0001/</link>
       <pubDate>Sat, 31 Dec 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://FuruzukiCH.github.io/posts/weekly-20221231/</guid>
+      <guid>https://FuruzukiCH.github.io/posts/weekly-0001/</guid>
       <description>2022 is a crazy year. A turbulent first half comes along with a dramatic second half. Life is just crazy and unpredictable, but things have to go on.
  World in 2022 #  Elon Musk buys Twitter #  Elon Musk acquired Twitter with $440B, making Twitter his private property. Although he claimed this deal is for promoting Free speech, his reform does not seems to align with his promise.</description>
+    </item>
+    
+    <item>
+      <title>Weekly #2 - A Small Step Makes The Whole Different</title>
+      <link>https://FuruzukiCH.github.io/posts/weekly-0002/</link>
+      <pubDate>Fri, 07 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://FuruzukiCH.github.io/posts/weekly-0002/</guid>
+      <description>A step is trivial, but can also be grand. In the book Atomic Habits, James Clear talks about how small steps make habits. A step can be the beginning of a habit or an everyday routine. Trying to divide a hard task into atomic steps is the key to harness habits. This idea is also supported by human&amp;rsquo;s nature of preferring easier things, or things with less friction. Running 10km everyday could be hard, but running for 100m or just walk for a while is doubtlessly easy.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://FuruzukiCH.github.io/docs/java/getting_deeper/java_memory_model/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://FuruzukiCH.github.io/docs/java/getting_deeper/java_memory_model/</guid>
+      <description>Java Memory Structure #  Intro #  Java memory model is about how JVM stores code, objects in the memory. It is typically divided into several parts.
+Reference #   Understanding Java Memory Model Memory Management in Java  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://FuruzukiCH.github.io/docs/java/getting_deeper/jvm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://FuruzukiCH.github.io/docs/java/getting_deeper/jvm/</guid>
+      <description>Java Virtual Machine #  JRE vs JDK #  JRE is for users, JDK is for developers.
+Java Runtime Environment(JRE) #  The minimum environment needed for running a Java application, including JVM and deployment tools.
+Java Development Tools(JDK) #  The complete development environment used for developing and executing Java applications, including JRE and development tools.
+Java code -&amp;gt; (java compiler) -&amp;gt; bytecode(.class) -&amp;gt; JVM
+JVM Architecture #  Class Loader Subsystem #  Classloader will load class files on to RAM.</description>
     </item>
     
   </channel>
