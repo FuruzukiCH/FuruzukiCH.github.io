@@ -2,6 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://FuruzukiCH.github.io/docs/ece580/</loc>
+  </url><url>
     <loc>https://FuruzukiCH.github.io/docs/java/</loc>
   </url><url>
     <loc>https://FuruzukiCH.github.io/posts/</loc>
@@ -40,8 +42,16 @@
     <loc>https://FuruzukiCH.github.io/posts/weekly-0001/</loc>
     <lastmod>2022-12-31T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://FuruzukiCH.github.io/categories/thoughts/</loc>
+    <lastmod>2022-01-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://FuruzukiCH.github.io/posts/thoughts-0001/</loc>
+    <lastmod>2022-01-08T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://FuruzukiCH.github.io/posts/weekly-0002/</loc>
     <lastmod>2022-01-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://FuruzukiCH.github.io/docs/ece580/chapters/lec01_linear_regression/</loc>
   </url><url>
     <loc>https://FuruzukiCH.github.io/docs/java/getting_deeper/java_memory_model/</loc>
   </url><url>

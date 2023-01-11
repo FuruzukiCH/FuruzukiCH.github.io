@@ -59,12 +59,33 @@ Internal Representation #   Fraction -&amp;gt; Mantisa
     </item>
     
     <item>
+      <title>Thoughts #1 - Fact and Opinion</title>
+      <link>https://FuruzukiCH.github.io/posts/thoughts-0001/</link>
+      <pubDate>Sat, 08 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://FuruzukiCH.github.io/posts/thoughts-0001/</guid>
+      <description>Fact and Opinion are intrinsicly different but come to us alike. It&amp;rsquo;s hard to distinguish between Fact and Opinion. People tend to use a factual narrative to make their opinion more convincing. Fact is what we can likely rely on while opinion requires a second thinking. How to tell the difference of the two will be vital to make our thinking consistent and harness our own opinion and ideology.
+TBD after reading The News: a user&amp;rsquo;s manual</description>
+    </item>
+    
+    <item>
       <title>Weekly #2 - A Small Step Makes The Whole Different</title>
       <link>https://FuruzukiCH.github.io/posts/weekly-0002/</link>
       <pubDate>Fri, 07 Jan 2022 00:00:00 +0000</pubDate>
       
       <guid>https://FuruzukiCH.github.io/posts/weekly-0002/</guid>
       <description>A step is trivial, but can also be grand. In the book Atomic Habits, James Clear talks about how small steps make habits. A step can be the beginning of a habit or an everyday routine. Trying to divide a hard task into atomic steps is the key to harness habits. This idea is also supported by human&amp;rsquo;s nature of preferring easier things, or things with less friction. Running 10km everyday could be hard, but running for 100m or just walk for a while is doubtlessly easy.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://FuruzukiCH.github.io/docs/ece580/chapters/lec01_linear_regression/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://FuruzukiCH.github.io/docs/ece580/chapters/lec01_linear_regression/</guid>
+      <description>Linear Regression #  linear regression vs non-linear regression #  linear: straight line
+non-linear: curved line
+Major steps of linear regression #   select a model template generate a number of sampling points measure function (f) values at these sampling points create a set of linear equations to solve model coefficients solve overdetermined linear equations  1. Ordinary least-squares regression #  overdetermined: # of equations is greater than # of coefficients</description>
     </item>
     
     <item>
