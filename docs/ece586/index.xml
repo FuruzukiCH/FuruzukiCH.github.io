@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ECE586 Vector Space and Applications on Writeplace</title>
+    <link>https://FuruzukiCH.github.io/docs/ece586/</link>
+    <description>Recent content in ECE586 Vector Space and Applications on Writeplace</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://FuruzukiCH.github.io/docs/ece586/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://FuruzukiCH.github.io/docs/ece586/chapters/chap01_logic_set_function/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://FuruzukiCH.github.io/docs/ece586/chapters/chap01_logic_set_function/</guid>
+      <description>Chapter 1 Logic and Set Theory #   Logic Set Theory Functions  Reading: EF 1.1-1.3
+A proof is a demonstration that, assuming certain axioms, some statement is necessarily true.
+An unproven proposition for which there is some sort of empirical is known as a conjecture.
+Propositional Logic (0th-order logic) #  Statement #  statement = proposition
+A statement is the content of an assertion, can be either true or false.</description>
+    </item>
+    
+  </channel>
+</rss>
