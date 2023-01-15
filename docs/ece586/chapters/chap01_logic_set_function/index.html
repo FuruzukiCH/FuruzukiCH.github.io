@@ -3,15 +3,13 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Chapter 1 Logic and Set Theory #   Logic Set Theory Functions  Reading: EF 1.1-1.3
-A proof is a demonstration that, assuming certain axioms, some statement is necessarily true.
+<meta name="description" content="Chapter 1 Logic and Set Theory #   Logic: EF 1.1-1.3 Set Theory EF 1.4 Functions EF 1.5  A proof is a demonstration that, assuming certain axioms, some statement is necessarily true.
 An unproven proposition for which there is some sort of empirical is known as a conjecture.
 Propositional Logic (0th-order logic) #  Statement #  statement = proposition
 A statement is the content of an assertion, can be either true or false.">
 <meta name="theme-color" content="#FFFFFF">
 <meta name="color-scheme" content="light dark"><meta property="og:title" content="" />
-<meta property="og:description" content="Chapter 1 Logic and Set Theory #   Logic Set Theory Functions  Reading: EF 1.1-1.3
-A proof is a demonstration that, assuming certain axioms, some statement is necessarily true.
+<meta property="og:description" content="Chapter 1 Logic and Set Theory #   Logic: EF 1.1-1.3 Set Theory EF 1.4 Functions EF 1.5  A proof is a demonstration that, assuming certain axioms, some statement is necessarily true.
 An unproven proposition for which there is some sort of empirical is known as a conjecture.
 Propositional Logic (0th-order logic) #  Statement #  statement = proposition
 A statement is the content of an assertion, can be either true or false." />
@@ -25,7 +23,7 @@ A statement is the content of an assertion, can be either true or false." />
 <link rel="icon" href="/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/book.min.a82d7e77ceb134d151c4d7e381eeb30623fbd5a524d58c584d8716ecec0205bd.css" integrity="sha256-qC1&#43;d86xNNFRxNfjge6zBiP71aUk1YxYTYcW7OwCBb0=" crossorigin="anonymous">
   <script defer src="/flexsearch.min.js"></script>
-  <script defer src="/en.search.min.88407b2a4b9de34999763f4fd9635d23282dbfab96407eea6d6cf900e6a97d64.js" integrity="sha256-iEB7Kkud40mZdj9P2WNdIygtv6uWQH7qbWz5AOapfWQ=" crossorigin="anonymous"></script>
+  <script defer src="/en.search.min.6abae9c71a8a987fac28d6b94aa0ea8c4b37f73d2b3989defcb06ef1b3ac3db0.js" integrity="sha256-arrpxxqKmH&#43;sKNa5SqDqjEs39z0rOYne/LBu8bOsPbA=" crossorigin="anonymous"></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -205,6 +203,23 @@ https://github.com/alex-shpak/hugo-book
         <li><a href="#types-of-proofs">Types of Proofs</a></li>
       </ul>
     </li>
+    <li><a href="#set-theory">Set Theory</a>
+      <ul>
+        <li><a href="#mapping">Mapping</a></li>
+        <li><a href="#operations-on-sets">Operations on sets</a></li>
+      </ul>
+    </li>
+    <li><a href="#relations">Relations</a>
+      <ul>
+        <li><a href="#properties">Properties</a></li>
+      </ul>
+    </li>
+    <li><a href="#functions">Functions</a>
+      <ul>
+        <li><a href="#properties-1">Properties</a></li>
+        <li><a href="#functions-to-sets">Functions to sets</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
 
@@ -222,11 +237,10 @@ https://github.com/alex-shpak/hugo-book
   <a class="anchor" href="#chapter-1-logic-and-set-theory">#</a>
 </h1>
 <ul>
-<li>Logic</li>
-<li>Set Theory</li>
-<li>Functions</li>
+<li>Logic: EF 1.1-1.3</li>
+<li>Set Theory EF 1.4</li>
+<li>Functions EF 1.5</li>
 </ul>
-<p><strong>Reading</strong>: EF 1.1-1.3</p>
 <p>A <strong>proof</strong> is a demonstration that, assuming certain axioms, some statement is necessarily true.</p>
 <p>An unproven proposition for which there is some sort of empirical is known as a <strong>conjecture</strong>.</p>
 <h2 id="propositional-logic-0th-order-logic">
@@ -377,6 +391,110 @@ $$</p>
 </span>
 </li>
 </ul>
+<h2 id="set-theory">
+  Set Theory
+  <a class="anchor" href="#set-theory">#</a>
+</h2>
+<p>integers <span>
+  \(Z\)
+</span>
+</p>
+<p>real numbers <span>
+  \(R\)
+</span>
+</p>
+<p>complex numbers <span>
+  \(C\)
+</span>
+</p>
+<h3 id="mapping">
+  Mapping
+  <a class="anchor" href="#mapping">#</a>
+</h3>
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/0/02/Injection.svg" alt="injective" /></p>
+<p>injective</p>
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Bijection.svg" alt="bijective" /></p>
+<p>bijective</p>
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/6/6c/Surjection.svg" alt="surjective" /></p>
+<p>surjective</p>
+<p><strong>countably infinite:</strong> there is an one-to-one correspondence between A and <span>
+  \(N\)
+</span>
+</p>
+<p><strong>uncountably infinite:</strong> <span>
+  \(|A| = \infin\)
+</span>
+ but not countably infinite</p>
+<h3 id="operations-on-sets">
+  Operations on sets
+  <a class="anchor" href="#operations-on-sets">#</a>
+</h3>
+<ul>
+<li><strong>Union</strong></li>
+<li><strong>Intersection</strong></li>
+<li><strong>Set difference</strong></li>
+<li><strong>Complement</strong></li>
+</ul>
+<blockquote>
+<p>Naive set theory is not consistent because of Russell’s Paradox</p>
+</blockquote>
+<h2 id="relations">
+  Relations
+  <a class="anchor" href="#relations">#</a>
+</h2>
+<p>A relation ∼ between elements of A is defined by the subset <span>
+  \(E \subseteq A \times A\)
+</span>
+. Specifically, the relation <span>
+  \(a \sim b\)
+</span>
+ holds if and only if <span>
+  \(a \in A\)
+</span>
+.</p>
+<h3 id="properties">
+  Properties
+  <a class="anchor" href="#properties">#</a>
+</h3>
+<ul>
+<li>Reflexive</li>
+<li>Symmetric</li>
+<li>Transitive</li>
+</ul>
+<blockquote>
+<p>called an equivalence relation if reflexive, symmetric, and transitive</p>
+</blockquote>
+<p><strong>equivalence classes:</strong> each class has elements that meets the requirements</p>
+<p>e.g. [1] is a class where all the elements is 1 after mod</p>
+<p><strong>quotient set:</strong> set of equivalence classes</p>
+<h2 id="functions">
+  Functions
+  <a class="anchor" href="#functions">#</a>
+</h2>
+<p>A function <span>
+  \(f: X \rightarrow Y\)
+</span>
+ from X to Y is defined by a subset <span>
+  \(F \subset X \times Y\)
+</span>
+ such that <span>
+  \(A_X=\{y \in Y | (x, y) \in F\}\)
+</span>
+ has exactly one element for each <span>
+  \(x \in X\)
+</span>
+.</p>
+<h3 id="properties-1">
+  Properties
+  <a class="anchor" href="#properties-1">#</a>
+</h3>
+<p>A function can be <strong>injective, bijective, or surjective.</strong></p>
+<p>A bijective function has a unique inverse function.</p>
+<h3 id="functions-to-sets">
+  Functions to sets
+  <a class="anchor" href="#functions-to-sets">#</a>
+</h3>
+<p>image &amp; preimage(inverse image)</p>
 </article>
  
       
@@ -433,6 +551,23 @@ $$</p>
     <li><a href="#strategies-for-proofs">Strategies for Proofs</a>
       <ul>
         <li><a href="#types-of-proofs">Types of Proofs</a></li>
+      </ul>
+    </li>
+    <li><a href="#set-theory">Set Theory</a>
+      <ul>
+        <li><a href="#mapping">Mapping</a></li>
+        <li><a href="#operations-on-sets">Operations on sets</a></li>
+      </ul>
+    </li>
+    <li><a href="#relations">Relations</a>
+      <ul>
+        <li><a href="#properties">Properties</a></li>
+      </ul>
+    </li>
+    <li><a href="#functions">Functions</a>
+      <ul>
+        <li><a href="#properties-1">Properties</a></li>
+        <li><a href="#functions-to-sets">Functions to sets</a></li>
       </ul>
     </li>
   </ul>

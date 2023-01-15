@@ -17,5 +17,18 @@ non-linear: curved line
 Major steps of linear regression #   select a model template generate a number of sampling points measure function (f) values at these sampling points create a set of linear equations to solve model coefficients solve overdetermined linear equations  1. Ordinary least-squares regression #  overdetermined: # of equations is greater than # of coefficients</description>
     </item>
     
+    <item>
+      <title></title>
+      <link>https://FuruzukiCH.github.io/docs/ece580/chapters/lec02_convex_analysis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://FuruzukiCH.github.io/docs/ece580/chapters/lec02_convex_analysis/</guid>
+      <description>Convex Analysis #  Here is our cost function
+$$ \underset{x}{min} ||A\cdot X - B||_2^2 $$
+This is a quadratic function of   \(X\)  and is always non-negative.
+We can use this property to prove its convexity.
+Convex Function #   \(\text{If a quadratic function is always non-negative}\\\ \text{its quadratic coefficient matrix is positive semi-definite ...(1)}\)   \(\text{A quadratic function is convex,}\\\ \text{if and only if its coefficient matrix is positive semi-definite.</description>
+    </item>
+    
   </channel>
 </rss>
